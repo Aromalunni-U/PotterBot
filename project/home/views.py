@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
-api_key = "AIzaSyCDAgWInZtJI1Y6JV44Q_F4W2ZFLxBBnQY"
+api_key = "api_key"
 genai.configure(api_key=api_key)
 genai_model = genai.GenerativeModel("gemini-pro")
 
