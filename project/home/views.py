@@ -27,7 +27,6 @@ def index(request):
         prompt = request.POST.get("question")
 
         model = SentenceTransformer("all-MiniLM-L6-v2")
-        # index = faiss.read_index(faiss_index_path)
 
         try:
             index = faiss.read_index(faiss_index_path)
